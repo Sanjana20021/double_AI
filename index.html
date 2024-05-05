@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Travel Agency</title>
+<style>
+  body { background-color: #F0E68C; font-family: Arial, sans-serif; }
+  .header { background-color: #FFD700; padding: 20px; text-align: center; }
+  .header h1 { margin: 0; }
+  nav { background-color: #FFA07A; overflow: hidden; }
+  nav a { float: left; display: block; color: white; text-align: center; padding: 14px 20px; text-decoration: none; }
+  nav a:hover { background-color: #DDA0DD; }
+  .content { padding: 20px; }
+  .destination { margin-bottom: 20px; background-color: #E6E6FA; padding: 10px; border-radius: 8px; }
+  .destination img { width: 100%; border-radius: 8px; }
+  .form { background-color: #98FB98; padding: 20px; margin-top: 20px; border-radius: 8px; }
+  label, input, textarea { display: block; width: 100%; margin-bottom: 10px; }
+  input, textarea { padding: 10px; }
+  button { background-color: #FFB6C1; padding: 10px 20px; font-size: 16px; border: none; cursor: pointer; }
+  button:hover { background-color: #DB7093; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Welcome to Our Travel Agency</h1>
+</div>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#">Popular Destinations</a>
+  <a href="#">Contact Us</a>
+</nav>
+
+<div class="content">
+  <div class="destination">
+    <img src="destination-image-url.jpg" alt="Destination Image">
+    <h2>Destination Name</h2>
+    <p>Description of the destination with more specific details...</p>
+  </div>
+  <!-- Add more destinations as needed -->
+</div>
+
+<div class="form">
+  <h3>Inquire Now</h3>
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+    <label for="message">Message:</label>
+    <textarea id="message" name="message"></textarea>
+    <button type="submit">Send</button>
+  </form>
+</div>
+
+<script>
+  // Optional JavaScript for interactive elements
+</script>
+
+</body>
+</html>
